@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalangNetwork", "MalangNetwork\MalangNetwork.csproj", "{7ACFF505-34BE-4767-AF43-A767D8B5CEEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalangGraphic", "MalangGraphic\MalangGraphic.csproj", "{4BEE41BC-F020-4419-85E7-2C7CCC738704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalangEngine", "MalangEngine\MalangEngine.csproj", "{FC76EF69-8468-41F9-957E-D59F930D2F8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ACFF505-34BE-4767-AF43-A767D8B5CEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACFF505-34BE-4767-AF43-A767D8B5CEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACFF505-34BE-4767-AF43-A767D8B5CEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACFF505-34BE-4767-AF43-A767D8B5CEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BEE41BC-F020-4419-85E7-2C7CCC738704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEE41BC-F020-4419-85E7-2C7CCC738704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BEE41BC-F020-4419-85E7-2C7CCC738704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BEE41BC-F020-4419-85E7-2C7CCC738704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC76EF69-8468-41F9-957E-D59F930D2F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC76EF69-8468-41F9-957E-D59F930D2F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC76EF69-8468-41F9-957E-D59F930D2F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC76EF69-8468-41F9-957E-D59F930D2F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
