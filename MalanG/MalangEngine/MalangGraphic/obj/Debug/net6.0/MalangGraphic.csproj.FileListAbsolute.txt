@@ -1,0 +1,12 @@
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangGraphic\bin\Debug\net6.0\MalangGraphic.deps.json
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangGraphic\bin\Debug\net6.0\MalangGraphic.dll
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangGraphic\bin\Debug\net6.0\MalangGraphic.pdb
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangGraphic\obj\Debug\net6.0\MalangGraphic.csproj.AssemblyReference.cache
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangGraphic\obj\Debug\net6.0\MalangGraphic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangGraphic\obj\Debug\net6.0\MalangGraphic.AssemblyInfoInputs.cache
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangGraphic\obj\Debug\net6.0\MalangGraphic.AssemblyInfo.cs
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangGraphic\obj\Debug\net6.0\MalangGraphic.csproj.CoreCompileInputs.cache
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangGraphic\obj\Debug\net6.0\MalangGraphic.dll
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangGraphic\obj\Debug\net6.0\refint\MalangGraphic.dll
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangGraphic\obj\Debug\net6.0\MalangGraphic.pdb
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangGraphic\obj\Debug\net6.0\ref\MalangGraphic.dll

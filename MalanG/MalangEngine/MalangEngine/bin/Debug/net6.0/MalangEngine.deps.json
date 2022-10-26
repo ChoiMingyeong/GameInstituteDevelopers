@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MalangEngine/1.0.0": {
+        "dependencies": {
+          "MalangGraphic": "1.0.0"
+        },
+        "runtime": {
+          "MalangEngine.dll": {}
+        }
+      },
+      "MalangGraphic/1.0.0": {
+        "runtime": {
+          "MalangGraphic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MalangEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MalangGraphic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

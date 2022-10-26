@@ -1,8 +1,30 @@
 {
   "version": 2,
-  "dgSpecHash": "TeoyMAb7SH+BaDyPVgZPIjj9aGOq91oWpYLtV++WTTm/vTR1iZIlj8tanjHVMEiO4S4USUPC5azLdY2Bq3YFlQ==",
+  "dgSpecHash": "yzv5NGX563GMSZj6qfp1TTYmM/8xtVqFXdGXpcuQgc/6UZXPDD0CztkpflLdDuSP2Bx8bWlbkNu0ZvcklGNIzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALSRUDDL1119\\Documents\\GitHub\\GameInstituteDevelopers\\MalanG\\MalangEngine\\MalangNetwork\\MalangNetwork.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\nlog\\5.0.5\\nlog.5.0.5.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\nlog.extensions.logging\\5.1.0\\nlog.extensions.logging.5.1.0.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\spannetty.buffers\\0.7.2012.2221\\spannetty.buffers.0.7.2012.2221.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\spannetty.codecs\\0.7.2012.2221\\spannetty.codecs.0.7.2012.2221.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\spannetty.common\\0.7.2012.2221\\spannetty.common.0.7.2012.2221.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\spannetty.handlers\\0.7.2012.2221\\spannetty.handlers.0.7.2012.2221.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\spannetty.transport\\0.7.2012.2221\\spannetty.transport.0.7.2012.2221.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\spannetty.transport.libuv\\0.7.2012.2221\\spannetty.transport.libuv.0.7.2012.2221.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\yamldotnet\\12.0.2\\yamldotnet.12.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

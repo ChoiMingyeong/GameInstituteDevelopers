@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MalangGraphic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MalangGraphic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MalangGraphic.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MalangGraphic/1.0.0": {
+      "type": "project",
+      "path": "../MalangGraphic/MalangGraphic.csproj",
+      "msbuildProject": "../MalangGraphic/MalangGraphic.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MalangGraphic >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ALSRUDDL1119\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ALSRUDDL1119\\Documents\\GitHub\\GameInstituteDevelopers\\MalanG\\MalangEngine\\MalangGraphic\\MalangGraphic.csproj": {
+              "projectPath": "C:\\Users\\ALSRUDDL1119\\Documents\\GitHub\\GameInstituteDevelopers\\MalanG\\MalangEngine\\MalangGraphic\\MalangGraphic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

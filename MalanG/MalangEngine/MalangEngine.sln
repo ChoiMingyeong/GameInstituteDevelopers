@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalangGraphic", "MalangGrap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalangEngine", "MalangEngine\MalangEngine.csproj", "{FC76EF69-8468-41F9-957E-D59F930D2F8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalangEngineTestClient", "MalangEngineTestClient\MalangEngineTestClient.csproj", "{CF8D4868-5337-42D6-B641-F5E54CF3D7EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{FC76EF69-8468-41F9-957E-D59F930D2F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC76EF69-8468-41F9-957E-D59F930D2F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC76EF69-8468-41F9-957E-D59F930D2F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8D4868-5337-42D6-B641-F5E54CF3D7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8D4868-5337-42D6-B641-F5E54CF3D7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8D4868-5337-42D6-B641-F5E54CF3D7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8D4868-5337-42D6-B641-F5E54CF3D7EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
