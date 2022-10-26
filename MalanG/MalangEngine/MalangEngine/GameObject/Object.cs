@@ -1,6 +1,6 @@
 ﻿// Copyright MUMO STUDIO, Inc. All Rights Reserved.
 
-namespace MalangEngine;
+namespace MalangEngine.GameObject;
 
 public class Object : MalangBase
 {

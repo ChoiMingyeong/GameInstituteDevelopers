@@ -1,15 +1,33 @@
 ﻿// Copyright MUMO STUDIO, Inc. All Rights Reserved.
 
-namespace MalangEngine;
+namespace MalangEngine.GameObject;
 
+[AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
+public class GameScene : Attribute
+{
+    public GameScene()
+    {
+        
+    }
+}
+
+[GameScene]
 public class Scene : MalangBase
 {
     private ObjectManager ObjectManager = new ObjectManager();
-    public Scene(string name) : base(name)
+    public Scene()
     {
-        SceneManager.Instance.AddNewScene(this);
+        Name = this.GetType().Name;
     }
 
+    public override void Initialize()
+    {
+        
+    }
+    public override void Start()
+    {
+        
+    }
     public override void Update()
     {
         ObjectManager.Update();

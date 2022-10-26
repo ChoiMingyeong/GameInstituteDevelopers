@@ -1,15 +1,20 @@
 ﻿// Copyright MUMO STUDIO, Inc. All Rights Reserved.
 
-namespace MalangEngine;
+namespace MalangEngine.GameObject;
 
-[AttributeUsage(AttributeTargets.Class)]
-public class Component : Attribute
+public class MalangBase
 {
+    public string Key { get; private set; }= Guid.NewGuid().ToString();
     public string Name;
 
-    public Component(string name)
+    public MalangBase(string name)
     {
         Name = name;
+    }
+
+    public MalangBase()
+    {
+        Name = string.Empty;
     }
     
     public virtual void Initialize()

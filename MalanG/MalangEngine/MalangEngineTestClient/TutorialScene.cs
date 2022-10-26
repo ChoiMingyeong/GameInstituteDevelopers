@@ -1,12 +1,15 @@
 ﻿// Copyright MUMO STUDIO, Inc. All Rights Reserved.
 
 using MalangEngine;
+using MalangEngine.Common;
+using MalangEngine.GameObject;
 
 namespace MalangEngineTestClient;
 
+[GameScene]
 public class TutorialScene : Scene
 {
-    public TutorialScene():base("Tutorial")
+    public TutorialScene()
     {
         
     }

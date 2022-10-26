@@ -1,13 +1,16 @@
 ﻿// Copyright MUMO STUDIO, Inc. All Rights Reserved.
 
-namespace MalangEngine;
+using System.Reflection;
+using MalangEngine.Common;
+
+namespace MalangEngine.GameObject;
 
 public class SceneManager : Singleton<SceneManager>
 {
     public List<Scene?> Scenes { get; private set; } = new();
     public Scene? NowScene { get; private set; } = null;
 
-    private Scene? CurrentScene = null;
+    private Scene? _currentScene = null;
 
     private SceneManager()
     {
@@ -15,6 +18,15 @@ public class SceneManager : Singleton<SceneManager>
 
     public void Initialize()
     {
+        foreach(var type in Assembly.GetExecutingAssembly().GetTypes())
+        {
+            var objects = type.GetCustomAttributes(typeof(GameScene));
+            if (objects.Any())
+            {
+                AddNewScene(Activator.CreateInstance(type) as Scene);
+            }
+        }
+        
         foreach (var scene in Scenes)
         {
             scene?.Initialize();
@@ -33,10 +45,10 @@ public class SceneManager : Singleton<SceneManager>
         {
             KeyInput.Instance.Update();
             
-            if (NowScene != null && CurrentScene != NowScene)
+            if (NowScene != null && !Equals(_currentScene, NowScene))
             {
                 NowScene?.Start();
-                CurrentScene = NowScene;
+                _currentScene = NowScene;
             }
 
             NowScene?.Update();
@@ -44,7 +56,7 @@ public class SceneManager : Singleton<SceneManager>
         }
     }
 
-    public void AddNewScene(Scene scene)
+    public void AddNewScene(Scene? scene)
     {
         NowScene ??= scene;
         Scenes.Add(scene);
@@ -52,7 +64,7 @@ public class SceneManager : Singleton<SceneManager>
 
     public void AddNewScene(string name)
     {
-        var newScene = new Scene(name);
+        var newScene = new Scene();
         AddNewScene(newScene);
     }
 

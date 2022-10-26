@@ -1,12 +1,12 @@
 ﻿// Copyright MUMO STUDIO, Inc. All Rights Reserved.
 
 using System.Runtime.InteropServices;
-using System.Security.Principal;
 
-namespace MalangEngine;
+namespace MalangEngine.Common;
 
 public class KeyInput : Singleton<KeyInput>
 {
+    //todo : 윈도우가 활성화 되어있을 때만 작동해야됨
     private const int KeyCount = 0xff;
     private int[] _prevKeyState;
     private int[] _nowKeyState;
@@ -20,6 +20,11 @@ public class KeyInput : Singleton<KeyInput>
         _nowKeyState = new int[KeyCount];
     }
 
+    public void Initialize()
+    {
+        
+    }
+    
     public void Update()
     {
         for (var i = 0; i < KeyCount; i++)

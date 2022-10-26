@@ -1,7 +1,8 @@
 ﻿// Copyright MUMO STUDIO, Inc. All Rights Reserved.
+
 using System.Reflection;
 
-namespace MalangEngine;
+namespace MalangEngine.Common;
 public class Singleton<T> where T : class
 {
     private static readonly Lazy<T> LazyInstance = new(() =>

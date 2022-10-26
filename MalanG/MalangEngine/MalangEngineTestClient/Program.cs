@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using MalangEngine;
+using MalangEngine.GameObject;
 
 namespace MalangEngineTestClient;
 
