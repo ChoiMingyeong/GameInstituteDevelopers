@@ -15,13 +15,12 @@ public class ObjectManager : MalangBase
         }
     }
 
-    public void AddObject()
+    public void AddObject(Object obj)
     {
-        AddObject($"DefaultObject{_defaultNameNumber++}");
-    }
-
-    public void AddObject(string name)
-    {
-        Objects.Add(new Object(name));
+        if (string.IsNullOrEmpty(obj.Name))
+        {
+            obj.Name = $"MalangObject_{_defaultNameNumber++}";
+        }
+        Objects.Add(obj);
     }
 }

@@ -1,8 +1,3 @@
-C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\MalangEngineTestClient.csproj.AssemblyReference.cache
-C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\MalangEngineTestClient.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\MalangEngineTestClient.AssemblyInfoInputs.cache
-C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\MalangEngineTestClient.AssemblyInfo.cs
-C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\MalangEngineTestClient.csproj.CoreCompileInputs.cache
 C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\bin\Debug\net6.0\MalangEngineTestClient.exe
 C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\bin\Debug\net6.0\MalangEngineTestClient.deps.json
 C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\bin\Debug\net6.0\MalangEngineTestClient.runtimeconfig.json
@@ -12,6 +7,11 @@ C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngi
 C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\bin\Debug\net6.0\MalangGraphic.dll
 C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\bin\Debug\net6.0\MalangEngine.pdb
 C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\bin\Debug\net6.0\MalangGraphic.pdb
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\MalangEngineTestClient.csproj.AssemblyReference.cache
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\MalangEngineTestClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\MalangEngineTestClient.AssemblyInfoInputs.cache
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\MalangEngineTestClient.AssemblyInfo.cs
+C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\MalangEngineTestClient.csproj.CoreCompileInputs.cache
 C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\MalangEngineTestClient.csproj.CopyComplete
 C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\MalangEngineTestClient.dll
 C:\Users\ALSRUDDL1119\Documents\GitHub\GameInstituteDevelopers\MalanG\MalangEngine\MalangEngineTestClient\obj\Debug\net6.0\refint\MalangEngineTestClient.dll

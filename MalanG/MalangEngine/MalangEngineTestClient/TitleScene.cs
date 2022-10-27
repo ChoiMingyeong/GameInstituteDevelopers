@@ -6,7 +6,6 @@ using MalangEngine.GameObject;
 
 namespace MalangEngineTestClient;
 
-[GameScene]
 public class TitleScene : Scene
 {
     public TitleScene()
@@ -26,11 +25,9 @@ public class TitleScene : Scene
 
     public override void Update()
     {
-        //Console.WriteLine("Title_Update");
-
         if (KeyInput.Instance.IsKeyDown(0x20))
         {
-            SceneManager.Instance.ChangeNowScene("Tutorial");
+            SceneManager.Instance.ChangeNowScene("TutorialScene");
         }
     }
 }

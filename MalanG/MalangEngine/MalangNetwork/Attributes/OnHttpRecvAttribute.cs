@@ -9,7 +9,7 @@ public enum eHttpMethod
 }
 
 [AttributeUsage(AttributeTargets.Method)]
-public class OnHttpRecvAttribute
+public class OnHttpRecvAttribute : Attribute
 {
     public eHttpMethod MethodType { get; }
     public string Url { get; }

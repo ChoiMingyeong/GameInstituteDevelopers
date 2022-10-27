@@ -1,6 +1,8 @@
 ﻿// Copyright MUMO STUDIO, Inc. All Rights Reserved.
 
 using System.Reflection;
+using System.Reflection.Emit;
+using System.Runtime.CompilerServices;
 using MalangEngine.Common;
 
 namespace MalangEngine.GameObject;
@@ -18,12 +20,11 @@ public class SceneManager : Singleton<SceneManager>
 
     public void Initialize()
     {
-        foreach(var type in Assembly.GetExecutingAssembly().GetTypes())
+        foreach(var type in Assembly.GetCallingAssembly().GetTypes())
         {
-            var objects = type.GetCustomAttributes(typeof(GameScene));
-            if (objects.Any())
+            if (type.IsSubclassOf(typeof(Scene)))
             {
-                AddNewScene(Activator.CreateInstance(type) as Scene);
+                Scenes.Add(Activator.CreateInstance(type) as Scene);
             }
         }
         

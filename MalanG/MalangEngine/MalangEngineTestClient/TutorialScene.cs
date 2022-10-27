@@ -6,7 +6,6 @@ using MalangEngine.GameObject;
 
 namespace MalangEngineTestClient;
 
-[GameScene]
 public class TutorialScene : Scene
 {
     public TutorialScene()
@@ -25,10 +24,9 @@ public class TutorialScene : Scene
 
     public override void Update()
     {
-        //Console.WriteLine("Tutorial_Update");
         if (KeyInput.Instance.IsKeyDown(0x20))
         {
-            SceneManager.Instance.ChangeNowScene("InGame");
+            SceneManager.Instance.ChangeNowScene("InGameScene");
         }
     }
 }

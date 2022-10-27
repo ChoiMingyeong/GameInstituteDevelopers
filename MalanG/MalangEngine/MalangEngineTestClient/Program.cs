@@ -11,12 +11,8 @@ internal static class Program
     {
         var waitHandle = new AutoResetEvent(false);
         
-        var titleScene = new TitleScene();
-        var tutorialScene = new TutorialScene();
-        var ingameScene = new InGameScene();
-        
         SceneManager.Instance.Initialize();
-        SceneManager.Instance.ChangeNowScene(titleScene.Name);
+        SceneManager.Instance.ChangeNowScene("TitleScene");
         SceneManager.Instance.Run();
         
         waitHandle.WaitOne();    

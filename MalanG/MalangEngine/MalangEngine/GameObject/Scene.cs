@@ -2,19 +2,9 @@
 
 namespace MalangEngine.GameObject;
 
-[AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
-public class GameScene : Attribute
-{
-    public GameScene()
-    {
-        
-    }
-}
-
-[GameScene]
 public class Scene : MalangBase
 {
-    private ObjectManager ObjectManager = new ObjectManager();
+    private ObjectManager _objectManager = new ObjectManager();
     public Scene()
     {
         Name = this.GetType().Name;
@@ -30,16 +20,11 @@ public class Scene : MalangBase
     }
     public override void Update()
     {
-        ObjectManager.Update();
+        _objectManager.Update();
     }
 
-    public void AddObject()
+    public void AddObject(Object obj)
     {
-        ObjectManager.AddObject();
-    }
-
-    public void AddObject(string name)
-    {
-        ObjectManager.AddObject(name);
+        _objectManager.AddObject(obj);
     }
 }

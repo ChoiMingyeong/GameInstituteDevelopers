@@ -6,7 +6,6 @@ using MalangEngine.GameObject;
 
 namespace MalangEngineTestClient;
 
-[GameScene]
 public class InGameScene : Scene
 {
     public InGameScene()
@@ -27,7 +26,7 @@ public class InGameScene : Scene
     {
         if (KeyInput.Instance.IsKeyDown(0x20))
         {
-            SceneManager.Instance.ChangeNowScene("Title");
+            SceneManager.Instance.ChangeNowScene("TitleScene");
         }
     }
 }
